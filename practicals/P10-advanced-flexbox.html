@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practical 10 | Advanced Flexbox</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:flex;flex-direction:column;font-family:Arial,sans-serif;background:#0b1020;color:#edf3ff}
+header,footer{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:22px 6%;background:#15213a}
+nav{display:flex;gap:20px;flex-wrap:wrap}a{color:#8fc5ff;text-decoration:none}
+main{width:min(100% - 40px,1000px);margin:40px auto;flex:1}
+.hero{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.hero article{flex:2 1 300px}.hero aside{flex:1 1 180px;padding:24px;background:#17243d;border-radius:14px}
+footer p{margin:0}
+</style>
+</head>
+<body>
+<header><strong>KABIR.DEV</strong><nav><a href="#home">Home</a><a href="#about">About</a><a href="#contact">Contact</a></nav></header>
+<main id="home"><section class="hero"><article><h1>Building with curiosity.</h1><p>A student portfolio layout created using Flexbox alignment, wrapping, flexible sizing and spacing.</p></article><aside><h2>Focus</h2><p>AI, ML and Web Development</p></aside></section><section id="about"><h2>About this layout</h2><p>The header and footer use <code>justify-content: space-between</code>. The hero uses flexible items that wrap on narrow screens.</p></section></main>
+<footer id="contact"><p>© 2026 Kabir</p><p>Web Development Laboratory</p></footer>
+</body>
+</html>
