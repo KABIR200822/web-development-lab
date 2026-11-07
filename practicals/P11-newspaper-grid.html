@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practical 11 | Newspaper Grid</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:24px;font-family:Georgia,serif;background:#f3f0e8;color:#202020}
+header{text-align:center;border-bottom:4px double #222;margin-bottom:24px}
+header h1{font-size:clamp(2rem,6vw,4rem);margin:8px}
+.layout{display:grid;grid-template-columns:1fr 2fr 1fr;gap:20px;max-width:1200px;margin:auto}
+article{padding:18px;background:#fff;border:1px solid #ccc}
+.feature{background:#e8edf3}
+@media(max-width:800px){.layout{grid-template-columns:1fr 1fr}.feature{grid-column:1/-1}}
+@media(max-width:520px){.layout{grid-template-columns:1fr}.feature{grid-column:auto}}
+</style>
+</head>
+<body>
+<header><p>THE STUDENT DAILY</p><h1>Technology &amp; Ideas</h1><p>Web Development Laboratory Edition</p></header>
+<main class="layout">
+<article><h2>Campus Notes</h2><p>Students learn by combining theory with practical experiments. Small projects help build confidence with code.</p></article>
+<article class="feature"><h2>Building for the Web</h2><p>Modern websites use semantic HTML to describe content and CSS to control presentation. Grid is especially useful for two-dimensional layouts because it manages rows and columns together.</p><p>Responsive design allows a layout to adapt to different screen widths. Media queries can change the number of columns when the available space becomes smaller.</p></article>
+<article><h2>Quick Guide</h2><p>Use Flexbox for arranging items in one direction. Use Grid when the design needs rows and columns.</p></article>
+</main>
+</body>
+</html>
