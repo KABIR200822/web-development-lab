@@ -41,9 +41,3 @@ This repository contains the practical work for the three modules of the laborat
 
 ## How to view the practicals
 Open any `.html` file in the `practicals` folder in a browser. The CSS practical P7 is a reusable stylesheet and can be linked from an HTML page with a `<link rel="stylesheet" href="P7-design-tokens.css">` element when the files are in the same folder.
-
-## Git version tags
-The P4 document records the commands for creating and publishing an annotated version tag.
-
-## Note
-The project descriptions and examples are educational demonstrations. Replace sample contact details and adjust the work if your instructor's rubric specifies additional requirements.
