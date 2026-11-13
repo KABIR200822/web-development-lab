@@ -39,7 +39,7 @@ These SVG previews illustrate the expected terminal or page output for each prac
 
 | Practical | Output preview |
 |---|---|
-| P1 | [View P1 output](screenshots/P1-output.svg) |
+| P1 | [View P1 output](screenshots/P1-output.png) |
 | P2 | [View P2 output](screenshots/P2-output.svg) |
 | P3 | [View P3 output](screenshots/P3-output.svg) |
 | P4 | [View P4 output](screenshots/P4-output.svg) |
