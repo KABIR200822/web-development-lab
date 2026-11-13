@@ -40,17 +40,17 @@ These SVG previews illustrate the expected terminal or page output for each prac
 | Practical | Output preview |
 |---|---|
 | P1 | [View P1 output](screenshots/P1-output.png) |
-| P2 | [View P2 output](screenshots/P2-output.svg) |
-| P3 | [View P3 output](screenshots/P3-output.svg) |
-| P4 | [View P4 output](screenshots/P4-output.svg) |
-| P5 | [View P5 output](screenshots/P5-output.svg) |
-| P6 | [View P6 output](screenshots/P6-output.svg) |
+| P2 | [View P2 output](screenshots/P2-output.png) |
+| P3 | [View P3 output](screenshots/P3-output.png) |
+| P4 | [View P4 output](screenshots/P4-output.png) |
+| P5 | [View P5 output](screenshots/P5-output.png) |
+| P6 | [View P6 output](screenshots/P6-output.png) |
 | P7 | [View P7 output](screenshots/P7-output.svg) |
-| P8 | [View P8 output](screenshots/P8-output.svg) |
-| P9 | [View P9 output](screenshots/P9-output.svg) |
-| P10 | [View P10 output](screenshots/P10-output.svg) |
-| P11 | [View P11 output](screenshots/P11-output.svg) |
-| P12 | [View P12 output](screenshots/P12-output.svg) |
+| P8 | [View P8 output](screenshots/P8-output.png) |
+| P9 | [View P9 output](screenshots/P9-output.png) |
+| P10 | [View P10 output](screenshots/P10-output.png) |
+| P11 | [View P11 output](screenshots/P11-output.png) |
+| P12 | [View P12 output](screenshots/P12-output.png) |
 | P13 | [View P13 output](screenshots/P13-output.svg) |
 
 ## Technologies
